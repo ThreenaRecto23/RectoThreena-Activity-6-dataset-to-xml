@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Hospitals>
+
+	<location>
+		<name>CENTRAL VALLEY GENERAL HOSPITAL</name>
+		<address>1025 NORTH DOUTY STREET</address>
+		<city>HANFORD</city>
+		<state>CA</state>
+		<county>KINGS</county>
+		<zip>93230</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>CLOSED</status>
+		<population>49</population>
+		<countyfips>6031</countyfips>
+	</location>
+
+	<location>
+		<name>LOS ROBLES HOSPITAL AND MEDICAL CENTER - EAST CAMPUS</name>
+		<address>150 VIA MERIDA</address>
+		<city>WESTLAKE VILAGE</city>
+		<state>CA</state>
+		<county>VENTURA</county>
+		<zip>91362</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>40</population>
+		<countyfips>6111</countyfips>
+	</location>
+	
+	<location>
+		<name>EAST LOS ANGELES DOCTORS HOSPITAL</name>
+		<address>4060 WHITTIER BOULEVARD</address>
+		<city>LOS ANGELES</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>91362</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>127</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>SOUTHERN CALIFORNIA HOSPITAL AT HOLLYWOOD</name>
+		<address>6245 DE LONGPRE AVENUE</address>
+		<city>HOLLYWOOD</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>90028</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>100</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>KINDRED HOSPITAL BALDWIN PARK</name>
+		<address>14148 FRANCISQUITO AVENUE</address>
+		<city>BALDWIN PARK</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>91706</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>95</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>LAKEWOOD REGIONAL MEDICAL CENTER</name>
+		<address>3700 EAST SOUTH STREET</address>
+		<city>LAKEWOOD</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>90712</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>172</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>MONROVIA MEMORIAL HOSPITAL</name>
+		<address>323 SOUTH HELIOTROPE AVENUE</address>
+		<city>MONROVIA</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>91016</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>49</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>MONTEREY PARK HOSPITAL</name>
+		<address>900 SOUTH ATLANTIC BOULEVARD</address>
+		<city>MONTEREY PARK</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>91754</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>101</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>STAR VIEW ADOLESCENT - P H F</name>
+		<address>4025 WEST 226 STREET</address>
+		<city>TORRANCE</city>
+		<state>CA</state>
+		<county>LOS ANGELES</county>
+		<zip>90505</zip>
+		<type>PSYCHIATRIC</type>
+		<status>OPEN</status>
+		<population>16</population>
+		<countyfips>6037</countyfips>
+	</location>
+
+	<location>
+		<name>CORONA REGIONAL MEDICAL CENTER-MAGNOLIA</name>
+		<address>730 MAGNOLIA AVENUE</address>
+		<city>CORONA</city>
+		<state>CA</state>
+		<county>RIVERSIDE</county>
+		<zip>92879</zip>
+		<type>GENERAL ACUTE CARE</type>
+		<status>OPEN</status>
+		<population>78</population>
+		<countyfips>6065</countyfips>
+	</location>
+
+</Hospitals>
