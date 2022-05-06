@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE Hospitals [
+	<!ELEMENT Hospitals (location)>
+	<!ELEMENT location (name, address, city, state, county, zip, type, status, population, countyfips)>
+
+	<!ELEMENT location (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT city (#PCDATA)>
+	<!ELEMENT state (#PCDATA)>
+	<!ELEMENT county (#PCDATA)>
+	<!ELEMENT zip (#PCDATA)>
+	<!ELEMENT type (#PCDATA)>
+	<!ELEMENT status (#PCDATA)>
+	<!ELEMENT population (#PCDATA)>
+	<!ELEMENT countyfips (#PCDATA)>
+
+	<!ATTLIST location id CDATA #REQUIRED>
+]>
+
+
+
 <Hospitals>
 
-	<location>
+	<location id="5793230">
 		<name>CENTRAL VALLEY GENERAL HOSPITAL</name>
 		<address>1025 NORTH DOUTY STREET</address>
 		<city>HANFORD</city>
@@ -15,7 +36,7 @@
 		<countyfips>6031</countyfips>
 	</location>
 
-	<location>
+	<location id="53391362">
 		<name>LOS ROBLES HOSPITAL AND MEDICAL CENTER - EAST CAMPUS</name>
 		<address>150 VIA MERIDA</address>
 		<city>WESTLAKE VILAGE</city>
@@ -28,7 +49,7 @@
 		<countyfips>6111</countyfips>
 	</location>
 	
-	<location>
+	<location id="11190023">
 		<name>EAST LOS ANGELES DOCTORS HOSPITAL</name>
 		<address>4060 WHITTIER BOULEVARD</address>
 		<city>LOS ANGELES</city>
@@ -41,7 +62,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="17090028">
 		<name>SOUTHERN CALIFORNIA HOSPITAL AT HOLLYWOOD</name>
 		<address>6245 DE LONGPRE AVENUE</address>
 		<city>HOLLYWOOD</city>
@@ -54,7 +75,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="23691706">
 		<name>KINDRED HOSPITAL BALDWIN PARK</name>
 		<address>14148 FRANCISQUITO AVENUE</address>
 		<city>BALDWIN PARK</city>
@@ -67,7 +88,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="25190712">
 		<name>LAKEWOOD REGIONAL MEDICAL CENTER</name>
 		<address>3700 EAST SOUTH STREET</address>
 		<city>LAKEWOOD</city>
@@ -80,7 +101,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="30791016">
 		<name>MONROVIA MEMORIAL HOSPITAL</name>
 		<address>323 SOUTH HELIOTROPE AVENUE</address>
 		<city>MONROVIA</city>
@@ -93,7 +114,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="30891754">
 		<name>MONTEREY PARK HOSPITAL</name>
 		<address>900 SOUTH ATLANTIC BOULEVARD</address>
 		<city>MONTEREY PARK</city>
@@ -106,7 +127,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="47090505">
 		<name>STAR VIEW ADOLESCENT - P H F</name>
 		<address>4025 WEST 226 STREET</address>
 		<city>TORRANCE</city>
@@ -119,7 +140,7 @@
 		<countyfips>6037</countyfips>
 	</location>
 
-	<location>
+	<location id="9092879">
 		<name>CORONA REGIONAL MEDICAL CENTER-MAGNOLIA</name>
 		<address>730 MAGNOLIA AVENUE</address>
 		<city>CORONA</city>
